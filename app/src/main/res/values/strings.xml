@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="nombre">mascota</string>
+    <string name="telefono">350214020</string>
+    <string name="email">DarioLLano@gmail.com</string>
+    <string name="pnombre">nombre</string>
+    <string name="ptelefono">telefono</string>
+    <string name="pemail">email</string>
+    <string name="n_likes">0</string>
+</resources>

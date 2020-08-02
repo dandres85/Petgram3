@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include android:id="@+id/miActionBar2"
+        layout="@layout/actionbar2"></include>
+
+    <!-- <ListView
+         android:id="@+id/lstContactos"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+     </ListView>-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMascotas2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/miActionBar2">
+
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>
